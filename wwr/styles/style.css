@@ -281,12 +281,8 @@ footer.social img {
 .text-faqs {
     margin-top: -30px;
     grid-column: 2/10;
-    grid-row: 7 / span 10;
+    grid-row: 7;
     text-align: left;
-}
-
-.text-faqs p {
-    margin-bottom: 50px;
 }
 
 .card-faqs-img {
