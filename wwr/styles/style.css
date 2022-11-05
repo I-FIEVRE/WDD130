@@ -247,7 +247,7 @@ footer.social img {
     height: 600px;
     background-color: #985f3f;
     margin-top: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     grid-column: 1/11;
     grid-row: 1 / span 5;
     z-index: -1;
