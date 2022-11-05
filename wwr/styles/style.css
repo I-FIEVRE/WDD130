@@ -279,6 +279,7 @@ footer.social img {
 }
 
 .text-faqs {
+    margin-top: -30px;
     grid-column: 2/10;
     grid-row: 7 / span 10;
     text-align: left;
