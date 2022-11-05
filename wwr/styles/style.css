@@ -219,10 +219,14 @@ footer.social img {
 
 /* faqs */
 
+.msg-faqs h2 {
+    font-family: "IM Fell Double Pica", 'Times New Roman', serif;
+}
+
 .faqs-grid {
     display: grid;
     grid-template-columns: repeat(10, 10%);
-    grid-template-rows: repeat(20, 10%);
+    /*grid-template-rows: repeat(20, 10%);*/
 }
 
 #background-faqs {
@@ -230,13 +234,13 @@ footer.social img {
     background-color: #985f3f;
     margin-bottom: 100px;
     grid-column: 1/11;
-    grid-row: 2/14;
+    grid-row: 2/7;
 }
 
 .rafting {
     width: 100%;
     grid-column: 2/7;
-    grid-row: 3/11;
+    grid-row: 3/6;
     box-shadow: 5px 5px 10px #985f3f;
 }
 
@@ -246,7 +250,7 @@ footer.social img {
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
-    grid-row: 4/6;
+    grid-row: 4/5;
     box-shadow: 5px 5px 10px #985f3f;
 }
 
