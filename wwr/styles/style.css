@@ -247,7 +247,7 @@ footer.social img {
     height: 600px;
     background-color: #985f3f;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     grid-column: 1/11;
     grid-row: 1/6;
     z-index: -1;
@@ -279,13 +279,14 @@ footer.social img {
 }
 
 .text-faqs {
-    margin-top: -40px;
     grid-column: 2/10;
     grid-row: 7;
     height: 800px;
     overflow: auto;
     text-align: left;
     padding: 20px;
+    border-style: solid ;
+    border-color: #613526;
 }
 
 .card-faqs-img {
@@ -301,7 +302,7 @@ footer.social img {
 }
 
 .card-faqs-img {
-    margin-top: 80px;
+    margin-top: 150px;
     grid-column: 5/7;
     grid-row: 20;   
 }
