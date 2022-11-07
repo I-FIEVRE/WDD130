@@ -240,7 +240,6 @@ footer.social img {
 .faqs-grid {
     display: grid;
     grid-template-columns: repeat(10, 10%);
-    /*grid-template-rows: repeat(20, 5%);*/
 }
 
 #background-faqs {
@@ -252,7 +251,6 @@ footer.social img {
     grid-row: 1/6;
     z-index: -1;
 }
-
 
 .rafting {
     width: 100%;
@@ -303,7 +301,8 @@ footer.social img {
 
 .card-faqs-img {
     margin-top: 150px;
-    grid-column: 5/7;
+    margin-bottom: 50px;
+    grid-column: 4/8;
     grid-row: 20;   
 }
 
