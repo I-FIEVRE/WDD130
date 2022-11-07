@@ -249,7 +249,7 @@ footer.social img {
     margin-top: 100px;
     margin-bottom: 100px;
     grid-column: 1/11;
-    grid-row: 1 / span 5;
+    grid-row: 1 / span 4;
     z-index: -1;
 }
 
