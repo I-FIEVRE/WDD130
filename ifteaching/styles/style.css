@@ -171,6 +171,7 @@ footer .social img {
     transition: transform .5s;
     box-shadow: 5px 5px 5px #444444;
     padding: 5px;
+    margin: 10px
   }
 
   .card-project:hover {
@@ -180,7 +181,7 @@ footer .social img {
 
    .text {
     height: 200px;
-    width: 800px;
+    width: 900px;
     text-align: center;
     background-color: #696969;
     border-top-left-radius: 5px;
@@ -190,23 +191,28 @@ footer .social img {
     z-index: 0;
     grid-column: 2/10;
     grid-row: 1/4;
+    padding: 10px;
   }
 
   .text h2 {
     margin-top: 30px;
+    
   }
-
 
   .button1 {
     margin-top: 50px;
+    padding: 10px;
     grid-column: 2/3;
     grid-row: 5/6;
+    justify-content: center;
   }
   
   .button2 {
     margin-top: 50px;
+    padding: 10px;
     grid-column: 4/5;
     grid-row: 5/6;
+    justify-content: center;
   }
   
   hr {
