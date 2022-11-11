@@ -78,6 +78,7 @@ nav a:hover {
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
+    background-color: #696969;
     border: 5px solid #137DC5;
     transition: transform .5s;
     box-shadow: 5px 5px 5px #696969;
@@ -116,6 +117,126 @@ footer .social img {
     border-radius: 50%;
     border: 2px solid #696969;
 }
+
+/* projects */
+
+.button1, .button2 {
+    height: 100px;
+    width: 300px; 
+  }
+  
+  
+ /* .button1 p, .button2 p {
+  margin-top: -30px; 
+  
+  }*/
+  
+  .button1 button, .button2 button {
+  height: 100px;
+  width: 200px;
+  background-color: #696969;
+  border-color: #696969 ;
+  border-style: solid;
+  border-radius: 5px;
+  transition: transform .5s;
+  box-shadow: 5px 5px 5px #137DC5;
+  }
+  
+  main {
+    margin-top: 50px;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    justify-items: center;
+  }
+  
+
+  .card1-project {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    z-index: 1;
+  }
+  .card2-project {
+    grid-column: 7/8;
+    grid-row: 2/3;
+    z-index: 1;
+  }
+
+  .card1-project, .card2-project {
+    border: 2px solid #444444;
+    border-radius: 5px;
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 5px #444444;
+    padding: 5px;
+  }
+
+  .card-project:hover {
+    opacity: .6;
+    transform: scale(1.1);
+  }
+
+   .text {
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    background-color: #696969;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 0;
+    grid-column: 2/10;
+    grid-row: 1/4;
+  }
+
+  .text h2 {
+    margin-top: 70px;
+  }
+
+
+  .button1 {
+    margin-top: 50px;
+    grid-column: 2/3;
+    grid-row: 5/6;
+  }
+  
+  .button2 {
+    margin-top: 50px;
+    grid-column: 4/5;
+    grid-row: 5/6;
+  }
+  
+  hr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    width: 100%;
+    line-height: 2px;
+    background-color: #696969;
+    grid-column: 2/10;
+  }
+  
+  .span1, .span2 {
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    grid-column: 2/9;
+    grid-row: 7/9; 
+  }
+
+  .span1 h4, .span2 h4, .span1 p, .span2 p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  
+
+  
+
 
 
 
