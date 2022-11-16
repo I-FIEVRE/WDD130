@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyProjects</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logo-ift-final-medium.png" alt="IF TEACHING Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="origins.html">Origins</a>
+                <a href="site-plan.html">Site Plan</a>
+            </nav>
+        </header>  
+        <main class="origins-grid">
+            <section class="text">   
+                <h2>My origins</h2>
+                <p>
+                I have the strong conviction that my ancestors influenced by their lives part of my construction and consequently who I am. 
+                </p>
+            </section> 
+            <img class="card-origin" src="images/rsz_1genealogy.png" alt="part of my genealogy">
+            <section class="button1">
+                <button type="button" onclick="toggle_text('span_txt1');">
+                    <img class="card-button" src="images/rsz_les_alpes.png" alt="the Alpes">
+                </button>
+            </section>
+            <section class="span1">
+                <span id="span_txt1" style="display:none;">
+                    <hr> 
+                    <h4>Adaptation</h4>
+                    <p> 
+                    My second great-father, Jean Baptiste Galliano, came from Piedmont, Italy with his parents to live in France. After having moved several times in my life, I came to live in Piedmont, 10 years ago. I see the mountains every day from my window and  I remember the life adaptations that my mother ancestors had to make, including her. From my father's side, my great-mother, Valentine, was a child of public assistance. She also had to adapt a lot throughout her life as a child as well as a woman. During my life, I learned to adapt to situations and my environment. In Particular, I met people from all over the world and I have worked with people with different ways of thinking and acting.
+                    </p>
+                    <hr>    
+                </span>
+            </section>               
+            <section class="button2">
+                <button type="button" onclick="toggle_text('span_txt2');">
+                    <img class="card-button" src="images/mother.png" alt="my mother">
+                </button>
+            </section>
+            <section class="span2">
+                <span id="span_txt2" style="display:none;"> 
+                    <hr>
+                    <h4>Service and Creativity</h4>
+                    <p>
+                    My mother was a nurse’s aide and worked with sick children in the hospital HRS in Giens when she was a young adult. She sewed, knitted, and embroidered and teached me to do the same. I learned crocheting too. I had the occasion to serve others all my life. For example, when I was a young adult, I crocheted toys for babies in a hospital and blankets for babies from families in need. My mother has a big sense of creativity and she transmitted it to me too. I apply it not only when I do handcrafts but also when I create a project. 
+                    </p>
+                    <hr>
+                </span> 
+            </section>
+            <section class="button3">
+                <button type="button" onclick="toggle_text('span_txt3');">
+                    <img class="card-button" src="images/rsz_cross-stitch.jpg" alt="cross stitch">
+                </button>
+            </section>    
+            <section class="span3">
+                <span id="span_txt3" style="display:none;"> 
+                    <hr>
+                    <h4>Service and Creativity</h4>
+                    <p>
+                    My mother was a nurse’s aide and worked with sick children in the hospital HRS in Giens when she was a young adult. She sewed, knitted, and embroidered and teached me to do the same. I learned crocheting too. I had the occasion to serve others all my life. For example, when I was a young adult, I crocheted toys for babies in a hospital and blankets for babies from families in need. My mother has a big sense of creativity and she transmitted it to me too. I apply it not only when I do handcrafts but also when I create a project. 
+                    </p>
+                    <hr>
+                </span> 
+            </section>
+            <section class="button4">
+                <button type="button" onclick="toggle_text('span_txt4');">
+                    <img class="card-button" src="images/rsz_flowers.jpg" alt="flowers">
+                </button>
+            </section>    
+            <section class="span4">
+                <span id="span_txt4" style="display:none;"> 
+                    <hr>
+                    <h4>Self Learn</h4>
+                    <p>
+                    My great-mother, Valentine, had to learn a lot in her life as mother of numerous children. She also learned to drive when she was already of an advanced age to make life more joyful for her husband who suffered from a big physical handicap after a heavy accident at work. 
+                    I have spent my whole life learning whether in person at school and university, in books, or online. I like to increase my skills to be successful in all my activities.
+                    </p>
+                    <hr>
+                </span> 
+            </section>   
+            <script type="text/javascript">
+              function toggle_text(id) {
+                var span = document.getElementById(id);
+                if(span.style.display == "none") {
+                  span.style.display = "inline";
+                } else {
+                  span.style.display = "none";
+                }
+              }  
+            </script>               
+        </main>
+        <footer>
+            <p>IF TEACHING &copy; 2022</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/ifievre/?locale=en_US" target="_blank">
+                <img src="images/isa-in-l.png" alt="isa icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>    
+             
