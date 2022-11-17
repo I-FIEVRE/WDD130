@@ -291,7 +291,7 @@ footer .social img {
   grid-template-columns: repeat(12, 7%);
   justify-items: center;
   align-content: center;
-  grid-template-rows: auto;
+  grid-template-rows: repeat(10, 100px);
   gap: 10px;
   margin-left: 50px;
   object-fit: scale-down;
@@ -306,7 +306,7 @@ footer .social img {
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  padding-left: 30px;
+  padding-left: 50px;
   padding-right: 400px;
 }
 
@@ -349,65 +349,71 @@ footer .social img {
 }
 
 .button11 {
-  border: 2px solid #696969;
+  border: 2px solid #137DC5;
   border-radius: 5px;
   margin-top: 50px;
   padding: 5px;
   grid-column: 1/4;
   grid-row: 4/5;
-  justify-content: center;
+ justify-content: center;
   transition: transform .5s;
 }
 
 .button22 {
-  border: 2px solid #696969;
+  border: 2px solid #137DC5;
   border-radius: 5px;
   margin-top: 50px;
   padding: 5px;
   grid-column: 1/4;
-  grid-row: 7/8;
-  justify-content: center;
+  grid-row: 9/10;
+ justify-content: center;
   transition: transform .5s;
 }
 
 .button33 {
-  border: 2px solid #696969;
+  border: 2px solid #137DC5;
   border-radius: 5px;
   margin-top: 50px;
   padding: 5px;
   grid-column: 10/13;
   grid-row: 4/5;
-  justify-content: center;
+ justify-content: center;
   transition: transform .5s;
 }
 
 .button44 {
-  border: 2px solid #696969;
+  border: 2px solid #137DC5;
   border-radius: 5px;
   margin-top: 50px;
   padding: 5px;
   grid-column: 10/13;
-  grid-row: 7/8;
+  grid-row: 9/10;
   justify-content: center;
   transition: transform .5s;
 }
 .button11:hover, .button22:hover, .button33:hover, .button44:hover {
-  opacity: .6;
-  transform: scale(1.1);
+  transform: scale(1.5);
 }
 
 .span11, .span22, .span33, .span44 {
   text-align: left;
+  border-radius: 10px;
+  background-color: #696969;
+  border-top: 2px solid #137DC5;
+  border-bottom: 2px solid #137DC5;
+  border-top-right-radius: 2px solid #137DC5;
+  border-top-left-radius: 2px solid #137DC5;
   margin-top: 50px;
-  grid-column: 5/9;
-  grid-row: 4/8; 
+  grid-column: 4/10;
+  grid-row: 6/10; 
+  overflow-Y: visible;
+  overflow-x: hidden;
 }
 
 .span11 h4, .span22 h4, .span33 h4, .span44 h4, .span11 p, .span22 p, .span33 p, .span44 p {
   padding-left: 20px;
   padding-right: 20px;
-  color: #fcfbfb;
-  overflow: auto;
+  color: #000;
 }
 
 
