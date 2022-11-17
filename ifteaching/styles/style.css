@@ -3,6 +3,7 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    justify-content: center;
 }
 
 body {
@@ -71,7 +72,8 @@ nav a:hover {
     grid-column: 6/10;
     grid-row: 6/8;
     margin-top: 150px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
     border-radius: 20px 60px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -139,7 +141,7 @@ footer .social img {
   
   .project-grid {
     display: grid;
-    grid-template-columns: repeat(12, 8.33%);
+    grid-template-columns: repeat(12, 7%);
     justify-items: center;
     align-content: center;
     grid-template-rows: auto;
@@ -177,9 +179,10 @@ footer .social img {
     margin: 10px
   }
 
-  .card-project:hover {
-    opacity: .6;
-    transform: scale(1.1);
+  .card1-project:hover, .card2-project:hover {
+    transform: scale(1.5);
+    box-shadow: none;
+    border: none;
   }
 
    .text {
@@ -213,6 +216,7 @@ footer .social img {
     grid-column: 1/4;
     grid-row: 4/5;
     justify-content: center;
+    transition: transform .5s;
   }
   
   .button2 {
@@ -221,6 +225,7 @@ footer .social img {
     grid-column: 4/7;
     grid-row: 4/5;
     justify-content: center;
+    transition: transform .5s;
   }
   
   .button3 {
@@ -229,6 +234,7 @@ footer .social img {
     grid-column: 7/10;
     grid-row: 4/5;
     justify-content: center;
+    transition: transform .5s;
   }
   
   .button4 {
@@ -238,8 +244,16 @@ footer .social img {
     grid-column: 10/13;
     grid-row: 4/5;
     justify-content: center;
+    transition: transform .5s;
   }
+  .button1:hover, .button2:hover, .button3:hover, .button4:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
 
+.button1 h2, .button2 h2, .button3 h2, .button4 h2 {
+  margin-top: 10px;
+}
 
   hr {
     margin-left: auto;
@@ -261,6 +275,8 @@ footer .social img {
   .span1 h4, .span2 h4, .span3 h4, .span4 h4, .span1 p, .span2 p, .span3 p, .span4 p {
     padding-left: 20px;
     padding-right: 20px;
+    color: #fcfbfb;
+    overflow: auto;
   }
 
 
