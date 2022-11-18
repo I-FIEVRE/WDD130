@@ -288,7 +288,7 @@ footer .social img {
 
 .origins-grid {
   display: grid;
-  grid-template-columns: repeat(13, 7%);
+  grid-template-columns: repeat(10, 10%);
   justify-items: center;
   align-content: center;
   grid-template-rows: repeat(10, auto);
@@ -313,7 +313,7 @@ footer .social img {
 
 .text1{
   z-index: 0;
-  grid-column: 3/11;
+  grid-column: 3/9;
   grid-row: 1/4;
 }
 
@@ -334,12 +334,12 @@ footer .social img {
   transition: transform .5s;
   box-shadow: 5px 5px 5px #444444;
   padding: 5px;
-  margin: 10px
+  margin: 10px;
 }
 
 .card-origins  {
-  grid-column: 9/11;
-  grid-row: 1/4;
+  grid-column: 8/9;
+  grid-row: 2/3;
   z-index: 1;
 }
 
@@ -353,10 +353,12 @@ footer .social img {
   border: 2px solid #696969;
   border-radius: 5px;
   margin-top: 50px;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-left: 5px;
   padding-right: 5px;
-  grid-column: 3/6;
+  padding-bottom: 5px;
+  justify-content: center;
+  grid-column: 5/7;
   grid-row-start: 4;
   transition: transform .5s;
 }
@@ -365,25 +367,15 @@ footer .social img {
   border: 2px solid #696969;
   border-radius: 5px;
   margin-top: 40px;
-  margin-left: 10px;
-  padding-left: 20px;
+  padding-left: 10px;
   padding-right: 10px;
   padding-top: 15px;
-  grid-column: 6/9;
+  justify-content: center;
+  grid-column: 3/5;
   grid-row-start: 4;
   transition: transform .5s;
 }
 
-.button33 {
-  border: 2px solid #696969;
-  border-radius: 5px;
-  margin-top: 50px;
-  margin-left: 50px;
-  padding: 5px;
-  grid-column: 7/9;
-  grid-row-start: 4;
-  transition: transform .5s;
-}
 
 .button44 {
   border: 2px solid #696969;
@@ -392,28 +384,29 @@ footer .social img {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 15px;
-  grid-column: 9/12;
+  justify-content: center;
+  grid-column: 7/9;
   grid-row-start: 4;
   transition: transform .5s;
 }
-.button11:hover, .button22:hover, .button33:hover, .button44:hover {
+.button11:hover, .button22:hover, .button44:hover {
   transform: scale(1.5);
 }
 
-.span11, .span22, .span33, .span44 {
+.span11, .span22, .span44 {
   text-align: left;
   border-radius: 10px;
   background-color: #696969;
   border-top: 2px solid #137DC5;
   border-bottom: 2px solid #137DC5;
   margin-top: 50px;
-  grid-column: 4/10;
+  grid-column: 3/9;
   grid-row: 6/10; 
   overflow-Y: visible;
   overflow-x: hidden;
 }
 
-.span11 h4, .span22 h4, .span33 h4, .span44 h4, .span11 p, .span22 p, .span33 p, .span44 p {
+.span11 h4, .span22 h4, .span44 h4, .span11 p, .span22 p, .span44 p {
   padding-left: 20px;
   padding-right: 20px;
   color: #000;
@@ -445,9 +438,27 @@ footer .social img {
       margin-top: -10px;
       margin-bottom: 40px;
     }
-{
-  margin-top: -50px;
-}
+  
+    .text, .text1 {
+      width: 80%;
+      font-size: 70%;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .body h2, h4, p {
+      font-size: 80%;
+    } 
+
+    #span_text1 {
+      font-size: 80%;
+    }
+
+
+    .card-origins, .card-button, .card1-project, .card2-project {
+      width: 85%;
+    }
+
     .home-title {
         font-size: 25px;
         color: #6f7364;
