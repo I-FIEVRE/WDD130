@@ -326,7 +326,7 @@ footer .social img {
 }
 
 .card-origins:hover {
-  transform: scale(2);
+  transform: scale(2.5);
   box-shadow: none;
   border: none;
 }
