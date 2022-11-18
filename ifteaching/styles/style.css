@@ -234,6 +234,7 @@ footer .social img {
     opacity: .6;
     transform: scale(1.1);
     background-color: #444444;
+    border-color: #696969;
 }
 
 button:hover {
