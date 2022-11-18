@@ -2,7 +2,7 @@
 
 #content {
     max-width: 1600px;
-    margin: 0 auto;
+    margin: 0;
     justify-content: center;
 }
 
@@ -234,7 +234,10 @@ footer .social img {
     opacity: .6;
     transform: scale(1.1);
 }
-
+  .span1 {
+    border-top: 2px solid #fcfbfb;
+    border-bottom: 2px solid #fcfbfb;
+  }
   .span1, .span2, .span3, .span4 {
     text-align: left;
     margin-top: 50px;
@@ -269,7 +272,7 @@ footer .social img {
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  padding-left: 20px;
+  padding-left: 50px;
   padding-right: 400px;
 }
 
@@ -313,27 +316,27 @@ footer .social img {
 .button11 {
   border: 2px solid #696969;
   border-radius: 5px;
-  margin-top: 50px;
+  margin-top: 80px;
   padding-top: 5px;
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 5px;
   justify-content: center;
   grid-column: 4/7;
-  grid-row-start: 4;
+  grid-row: 4/5;
   transition: transform .5s;
 }
 
 .button22 {
   border: 2px solid #696969;
   border-radius: 5px;
-  margin-top: 40px;
+  margin-top: 80px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
   justify-content: center;
   grid-column: 2/4;
-  grid-row-start: 4;
+  grid-row: 4/5;
   transition: transform .5s;
 }
 
@@ -341,33 +344,24 @@ footer .social img {
 .button44 {
   border: 2px solid #696969;
   border-radius: 5px;
-  margin-top: 50px;
+  margin-top: 80px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
   justify-content: center;
   grid-column: 7/9;
-  grid-row-start: 4;
+  grid-row: 4/5;
   transition: transform .5s;
 }
 .button11:hover, .button22:hover, .button44:hover {
   transform: scale(1.5);
 }
 
-#backgrouond {
-  height: 700px;
-  background-color: #696969;
-  margin-top: 50px;
-  grid-column: 2/9;
-  grid-row: 6/10; 
-  z-index: 0;
-}
-
 .span11, .span22, .span44 {
   text-align: left;
-  margin-top: 50px;
+  margin-top: 80px;
   grid-column: 2/9;
-  grid-row: 6/10; 
+  grid-row: 5/6; 
 }
 
 .span11, .span22, .span44 {
@@ -375,6 +369,7 @@ footer .social img {
   padding-right: 10px;
   color: #fcfbfb;
   overflow: auto;
+  margin-bottom: 0px;
 }
 
 
