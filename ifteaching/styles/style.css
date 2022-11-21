@@ -439,10 +439,10 @@ button:hover {
       width: 50%;
     }
 
-    .button11, .button22, .button44 {
+    /*.button11, .button22, .button44 {
       border-style: none;
       padding: 0em;
-    }
+    }*/
 
     .home-title {
         font-size: 25px;
