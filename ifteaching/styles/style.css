@@ -121,7 +121,7 @@ footer .social img {
 }
 
 p a {
-  margin-left: 600px;
+  margin-left: 400px;
 }
 
 /* projects */
@@ -410,6 +410,7 @@ button:hover {
       display: block;
       height: auto;
       justify-items: center;
+      justify-content: center;
   }
 
     .origins-grid {
@@ -430,17 +431,8 @@ button:hover {
       justify-content: center;
     }
 
-   /* .body h2, h4, {
-      font-size: 80%;
-    } 
-
-    #span_text1 {
-      font-size: 80%;
-    }*/
-
-
     .card-origins, .card-button {
-      width: 70%;
+      width: 80%;
     }
 
     .card1-project, .card2-project {
@@ -463,4 +455,9 @@ button:hover {
     footer {
         margin-top: 25px;
     }
+
+    p a {
+      margin-left: 0px;
+    }
+
 }
