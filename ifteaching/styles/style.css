@@ -415,7 +415,7 @@ button:hover {
 .span11, .span22, .span44 {
   text-align: left;
   margin-top: 100px;
-  grid-column: 3/8;
+  grid-column: 2/9;
   grid-row: 5/6; 
 }
 
