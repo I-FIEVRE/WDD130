@@ -183,7 +183,7 @@ button:hover {
   }
 
   .card1-project:hover, .card2-project:hover {
-    transform: scale(1.5);
+    transform: scale(2);
     box-shadow: none;
     border: none;
   }
