@@ -431,3 +431,13 @@ textarea {
         margin-top: 25px;
     }
 }
+@media screen and (max-width: 700px) {
+    footer p {
+        font-size: 1rem;
+    }
+ }
+ @media screen and (max-width: 400px) {
+    footer p {
+        font-size: 0.6rem;
+    }
+ }
